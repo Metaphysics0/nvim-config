@@ -6,7 +6,7 @@
 local M = {}
 
 M.base46 = {
-	theme = "onedark",
+	theme = "catppuccin-mocha",
 
 	-- hl_override = {
 	-- 	Comment = { italic = true },
@@ -15,6 +15,14 @@ M.base46 = {
 }
 
 -- M.nvdash = { load_on_startup = true }
+
+-- Move file explorer to the right side
+M.nvimtree = {
+  view = {
+    side = "right",
+  },
+}
+
 -- M.ui = {
 --       tabufline = {
 --          lazyload = false
